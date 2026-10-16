@@ -12,15 +12,15 @@ Coffer checks this page for a new version when it starts. When there is one, the
 
 # Notices
 
-This project is currently under active development and is being solo tested on my own files and use cases. While this app is technically functioning without any glaring issues, it has not been completely tested and depending on the use case, a user may find bugs and issues, mostly in usability. While the app is stable, this is realistically a **BETA version** of the app and **is subject to change** without notice. It is **not** recommended to use in commercial environments yet, though personal use should pose no problem at all, although I wouldn't recommend relying on the app completely **yet**. Please keep a copy of your important or critical files somewhere safe if you plan on using the app in case of file corruption (has not happened once for me during this entire development process, which started on the 29th of September, 2026).
+This project is currently under active development and is being solo tested on my own files and use cases. While this app is technically functioning without any glaring issues, it has not been completely tested and depending on the use case, a user may find bugs and issues, mostly in usability. While the app is stable, the app is realistically in **BETA** and **is subject to change** without notice. It is **not** recommended to use in commercial environments yet, though personal use should pose no problem at all, although I wouldn't recommend relying on the app completely **yet**. Please keep a copy of your important or critical files somewhere safe if you plan on using the app in case of file corruption or similar (has not happened once for me during this entire development process, which started on the 29th of September, 2026).
 
 ## Helping this project
 
-If you are user of this app, please do not hesitate to suggest features or improvements as well as informing of bugs and other issues. I wish to create not only a great app, but an app that a user 
+If you are user of this app, please do not hesitate to suggest features or improvements as well as informing of bugs and other issues. I wish to create not only a great app, but an app that a user can rely on. I am not looking for any co-developers.
 
 ## OS Support
 
-Support for Linux and/or MacOS is not available during development. When nearing a stable full release, I may look into getting support for these. Though I cannot personally test them is I do not own any Linux or MacOS machines.
+Support for Linux and/or MacOS is not available, at least during development. When nearing a stable full release, I may look into getting support for these. Though I cannot personally test them is I do not own any Linux or MacOS machines.
 
 ## Use of Artificial Intelligence
 
