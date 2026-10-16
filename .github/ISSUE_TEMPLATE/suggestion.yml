@@ -1,0 +1,26 @@
+name: Suggest additions or changes
+description: An idea for something new in Coffer, or something that could work better.
+title: "[Suggestion] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! **What you write here is public** — please don't include anything private.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: The addition or change, in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: What it would help with, or what's in the way today.
+  - type: input
+    id: version
+    attributes:
+      label: Coffer version
+      description: Filled in by Coffer when you open this form from the app.

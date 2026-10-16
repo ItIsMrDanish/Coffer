@@ -1,0 +1,45 @@
+name: Report a bug or issue
+description: Something in Coffer doesn't work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **What you write here is public** — please don't include file names, folder names, keys or anything private.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be made to happen again?
+      description: The steps, if you know them.
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: Coffer version
+      description: Filled in by Coffer when you open this form from the app (Settings → Other → About shows it too).
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Other / not sure
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots (drag them in) or anything that might help. Make sure they show nothing private.
