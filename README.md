@@ -12,19 +12,19 @@ Coffer checks this page for a new version when it starts. When there is one, the
 
 # Notices
 
-This project is currently under active development and is being solo tested on my own files and use cases. While this app is technically functioning without any glaring issues, it has not been completely tested and depending on the use case, a user may find bugs and issues, mostly in usability. While the app is stable, the app is realistically in **BETA** and **is subject to change** without notice. It is **not** recommended to use in commercial environments yet, though personal use should pose no problem at all, although I wouldn't recommend relying on the app completely **yet**. Please keep a copy of your important or critical files somewhere safe if you plan on using the app in case of file corruption or similar (has not happened for me during this entire development process, which started on the 29th of September, 2026).
+This project is under active development and is tested by me alone, on my own files and use cases. The app works without any glaring issues, but it hasn't been fully tested, so depending on how you use it, you may run into bugs, mostly in usability. Although it is stable, the app is realistically in **BETA** and **is subject to change** without notice. It is **not** recommended for commercial use yet. Personal use should be fine, but I wouldn't rely on the app completely **yet**. If you use it, please keep a copy of your important files somewhere safe in case of file corruption or similar. (This hasn't happened to me at any point since development started on 29 September 2026.)
 
-## Updates
+## How often Coffer updates
 
-Before 0.1.46.0, updates were never published, they are now (at least if I remember). Each update can consist of small changes and fixes up to a major feature being implemented, seen on the slightly modified semantic versioning. This also means that multiple updates can be pushed out in a single day or just once in a while — it entirely depends on whether I make many small changes or less big changes. In any case, expect frequent updates if you use this app — the app will inform you and this is the only time the app uses the internet (nothing is sent or received from your vault; it only checks this page for updates). 
+The first published version is 0.1.46.1; earlier versions were never released. An update can be anything from a small fix to a major new feature, which the version number shows: it reads OVERHAUL.MAJOR.MINOR.PATCH, a slightly modified form of semantic versioning. This also means several updates can come out in a single day, or only once in a while, depending on whether I make many small changes or fewer big ones. Either way, expect frequent updates. Coffer tells you when one is ready, and checking for updates is the only time the app goes online: nothing from your vault is sent or received, it only checks this page for a new version (you can turn this off in **Settings → General**).
 
 ## Helping this project
 
-If you are user of this app, please do not hesitate to suggest features or improvements as well as informing of bugs and any issues. I wish to create not only a great app, but an app that users can rely on. I am not looking for any co-developers.
+If you use this app, don't hesitate to suggest features or improvements, or to report bugs and other issues, either with **Report a bug or issue** and **Send a suggestion** in Coffer or under **Issues** on this page. I want to make not only a great app, but one that people can rely on. I am not looking for any co-developers.
 
 ## OS Support
 
-Support for Linux and/or MacOS is not available, at least during development. When nearing a stable full release, I may look into getting support for these. Though I cannot personally test them is I do not own any Linux or MacOS machines.
+Coffer doesn't support Linux or macOS, at least during development. When it nears a stable full release, I may look into supporting them, though I can't test them myself, as I don't own any Linux or macOS machines.
 
 ## Use of Artificial Intelligence
 
