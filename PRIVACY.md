@@ -1,6 +1,6 @@
 # Coffer privacy policy
 
-*Effective 17 October 2026. Coffer is made by Sleeping Shield Studio.*
+*Effective 20 October 2026. Coffer is made by Sleeping Shield Studio.*
 
 ## In short
 
@@ -33,7 +33,11 @@ that program can read it, and wipes it again when it's no longer needed (at the 
 ## Bug reports and suggestions
 
 **Report a bug or issue** and **Send a suggestion** open a form on Coffer's GitHub page in your web browser, with your
-Coffer version filled in. Nothing is sent unless you submit the form yourself. What you write there is public and
+Coffer version filled in. A bug report can also be filled in with details about your PC and Coffer if you choose to:
+the Windows version, the processor, graphics card and memory, the screens, roughly how many files the vault holds and
+how big it is, the settings you changed, and errors Coffer noticed since it started — never file, folder, category or
+tag names, keys or paths. You see the exact text before the form opens, can leave it out, and can still change it in
+the form. Nothing is sent unless you submit the form yourself. What you write there is public and
 handled by GitHub under [GitHub's privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## The Microsoft Store and Windows

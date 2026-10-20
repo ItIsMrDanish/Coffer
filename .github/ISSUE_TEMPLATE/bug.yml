@@ -39,6 +39,12 @@ body:
         - Windows 10
         - Other / not sure
   - type: textarea
+    id: details
+    attributes:
+      label: Details about the PC and Coffer
+      description: Filled in by Coffer when you choose to add them in Report a bug (no file, folder or tag names, and no keys). You can change or remove anything.
+      render: text
+  - type: textarea
     id: extra
     attributes:
       label: Anything else?
