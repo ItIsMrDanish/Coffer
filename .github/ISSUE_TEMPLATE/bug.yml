@@ -33,10 +33,11 @@ body:
   - type: dropdown
     id: windows
     attributes:
-      label: Windows
+      label: System
       options:
         - Windows 11
         - Windows 10
+        - Linux
         - Other / not sure
   - type: textarea
     id: details
