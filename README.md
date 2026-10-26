@@ -1,14 +1,21 @@
 # Coffer
 
-A file vault for Windows 11. Coffer keeps your files encrypted and lets you sort them with folders, categories and tags.
+A file vault for Windows 11 and Linux. Coffer keeps your files encrypted and lets you sort them with folders, categories and tags.
 
 ## Install
 
-Download `Coffer-Setup-<version>.exe` from the newest release under **Releases** and run it. It installs for your Windows user only.
+**Windows:** download `Coffer-Setup-<version>.exe` from the newest release under **Releases** and run it. It installs for your Windows user only.
+
+**Linux** (64-bit): pick one from the newest release.
+
+- `coffer_<version>_amd64.deb` for Ubuntu, Debian, Linux Mint, Pop!_OS and others based on them: open it with your software installer, or run `sudo apt install ./coffer_<version>_amd64.deb`. **Use this one on Ubuntu 24.04 and newer.**
+- `Coffer-<version>.AppImage` for any other distribution: make it executable (`chmod +x Coffer-<version>.AppImage`, or Properties → Allow executing as a program) and run it. Ubuntu 24.04 and newer block the sandbox AppImages of apps like Coffer need, so the AppImage may not start there; use the .deb.
+
+On Linux, Coffer asks you to choose a start key the first time it opens, and it can't be turned off. Hiding Coffer from screenshots and screen sharing isn't available on Linux.
 
 ## Updates
 
-Coffer checks this page for a new version when it starts. When there is one, the gear in Coffer gets a green dot, and **Settings → General** lets you download and install it.
+Coffer checks this page for a new version when it starts. When there is one, the gear in Coffer gets a green dot, and **Settings → General** lets you download and install it (on Linux it opens the release page, where you download the new .deb or AppImage).
 
 # Notices
 
@@ -24,7 +31,7 @@ If you use this app, don't hesitate to suggest features or improvements, or to r
 
 ## OS Support
 
-Coffer doesn't support Linux or macOS, at least during development. When it nears a stable full release, I may look into supporting them, though I can't test them myself, as I don't own any Linux or macOS machines.
+Coffer runs on Windows 11 (and 10) and on 64-bit Linux. I don't own a Linux machine, so the Linux version is tested on a virtual Ubuntu system and by testers; reports from Linux users are especially welcome. There are no plans for macOS.
 
 ## Use of Artificial Intelligence
 

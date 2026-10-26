@@ -13,7 +13,8 @@ your files, their names or anything about your vault to anyone — including us.
 - **Your settings**: things like the theme, the design and the animations.
 
 Both stay on your PC: in the Microsoft Store version in the `Coffer` folder in your user folder
-(`C:\Users\<you>\Coffer`), in the version from GitHub in `%LOCALAPPDATA%\Coffer`. If you make a backup, it goes to the
+(`C:\Users\<you>\Coffer`), in the version from GitHub in `%LOCALAPPDATA%\Coffer`, and on Linux in
+`~/.local/share/Coffer`. If you make a backup, it goes to the
 folder you pick.
 
 Features that look at your files — finding duplicates, sorting by similarity, reading text in pictures, recognising
@@ -34,7 +35,7 @@ that program can read it, and wipes it again when it's no longer needed (at the 
 
 **Report a bug or issue** and **Send a suggestion** open a form on Coffer's GitHub page in your web browser, with your
 Coffer version filled in. A bug report can also be filled in with details about your PC and Coffer if you choose to:
-the Windows version, the processor, graphics card and memory, the screens, roughly how many files the vault holds and
+the Windows or Linux version, the processor, graphics card and memory, the screens, roughly how many files the vault holds and
 how big it is, the settings you changed, and errors Coffer noticed since it started — never file, folder, category or
 tag names, keys or paths. You see the exact text before the form opens, can leave it out, and can still change it in
 the form. Nothing is sent unless you submit the form yourself. What you write there is public and
