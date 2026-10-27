@@ -1,10 +1,81 @@
 # Coffer
 
-A file vault for Windows 11 and Linux. Coffer keeps your files encrypted and lets you sort them with folders, categories and tags.
+**A private, encrypted home for your files, images and videos — that also makes them easy to find.**
+
+For Windows 11 (and 10) and 64-bit Linux. No account and no cloud: everything stays on your own PC.
+
+![Coffer's main view: files sorted into folders, with groups of related files](screenshots/main-view.png)
+
+## Why Coffer?
+
+A normal folder on your PC is open to anyone who uses it, and a big collection quickly gets hard to search through, because every file can only sit in one folder. Coffer solves both:
+
+- **Private.** Files you add are encrypted (AES-256) and can only be opened through Coffer. Lock the whole app with a start key, or just some folders with their own keys.
+- **Easy to find.** A file isn't stuck in one place. Give it any number of folders, categories and tags, and find it again by any of them — or by search, filters, date, or what it looks like.
+- **Offline.** The only time Coffer goes online is to check this page for updates, and you can turn that off.
+
+## What you could use it for
+
+- **Private images and videos** you don't want to show up when someone borrows your PC or you share your screen.
+- **Important documents** like ID scans, contracts, bank papers and school work.
+- **Big collections** — art, wallpapers, memes, game screenshots or reference images — sorted by what they are (a category like *Wallpaper*, tags like *#Sunset* and *#Beach*) instead of crammed into one folder tree.
+- **Cleaning up years of downloads:** Coffer finds duplicates, even edited copies, so you keep just one of each.
+
+## What it does
+
+### Keeps your files safe
+- An optional **start key** for the whole app, and **access keys** for single folders.
+- **Locks by itself** when Windows locks, the PC sleeps, or you've been away for a while.
+- **Hides from screenshots and screen sharing** (Windows only), until you choose to show it.
+- A **recovery key** that opens your vault if you forget a key or move to a new PC.
+- **Encrypted backups** to any drive, automatic if you like, with only changes copied each time.
+- **Recently removed** and **Undo**, so nothing is gone by accident.
+
+### Organises without forcing one folder
+- Folders, categories and tags — as many per file as you like.
+- **Smart categories and tags** give themselves to the files that match your rules (for example: every image, except GIFs) and stay up to date.
+- **Tag suggestions** learned from the tags you've already given. Coffer only suggests; it never tags anything by itself.
+
+![A smart category: rules that decide which files get it](screenshots/smart-tags.png)
+
+### Finds things fast
+- Search by name, category or tag (`car OR city` works too), and filter by type, date, size, category or tag.
+- Sort by name, date, size or type — or by **Similar**, which puts look-alike images and videos next to each other.
+
+![Search with filters](screenshots/search.png)
+
+### Opens files without leaving copies
+- Images, videos, music, PDFs and text open in Coffer's own viewers, decrypted only in memory. Zoom, rotate, play, loop, go full screen, or start a **slideshow**.
+- Other files open in their own program through a temporary copy that is wiped afterwards.
+
+![The video player](screenshots/video-player.png)
+
+### Cleans up duplicates
+- Found when you add files or whenever you ask — including resized, cropped, mirrored or edited copies and shortened videos.
+- Compare each pair side by side and choose what to keep. Nothing is deleted without you.
+
+![Two near-identical images in the duplicate review](screenshots/duplicates.png)
+
+### Looks the way you like
+- **10 designs** — Classic, Fluent, Adwaita, Glass, Material, Aero, Terminal, Paper, Bold and Launcher — each with its own themes, plus accent colours and animations.
+
+![Six of the designs: Fluent, Glass, Material, Aero, Paper and Bold](screenshots/designs.png)
+
+<details>
+<summary>More screenshots</summary>
+
+![The image viewer](screenshots/image-viewer.png)
+![A locked folder](screenshots/locked-folder.png)
+![Security settings](screenshots/security.png)
+![Backup settings](screenshots/backup.png)
+
+</details>
 
 ## Install
 
-**Windows:** download `Coffer-Setup-<version>.exe` from the newest release under **Releases** and run it. It installs for your Windows user only.
+**Windows:** download `Coffer-Setup-<version>.exe` from the newest release under **Releases** and run it. It installs for your Windows user only, without admin rights.
+
+**Microsoft Store:** Coffer is also on the Microsoft Store (search for *Coffer* by Sleeping Shield Studio). The Store keeps it up to date, but gets new versions a little later than this page.
 
 **Linux** (64-bit): pick one from the newest release.
 
@@ -17,26 +88,10 @@ On Linux, Coffer asks you to choose a start key the first time it opens, and it 
 
 Coffer checks this page for a new version when it starts. When there is one, the gear in Coffer gets a green dot, and **Settings → General** lets you download and install it (on Linux it opens the release page, where you download the new .deb or AppImage).
 
-# Notices
+## Helping the project
 
-This project is under active development and is tested by me alone, on my own files and use cases. The app works without any glaring issues, but it hasn't been fully tested, so depending on how you use it, you may run into bugs, mostly in usability. Although it is stable, the app is realistically in **BETA** and **is subject to change** without notice. It is **not** recommended for commercial use yet. Personal use should be fine, but I wouldn't rely on the app completely **yet**. If you use it, please keep a copy of your important files somewhere safe in case of file corruption or similar. (This hasn't happened to me at any point since development started on 29 September 2026.)
+Found a bug, or have an idea? Click **Report a bug or issue** or **Send a suggestion** at the bottom of Coffer's side bar. It opens a form here with your Coffer version filled in, and a bug report can also add details about your PC (you see them first; never file names or keys). You can also go straight to **Issues** on this page. Every report helps make Coffer something people can rely on. I am not looking for co-developers.
 
-## How often Coffer updates
+## Use of AI
 
-The first published version is 0.1.46.1; earlier versions were never released. An update can be anything from a small fix to a major new feature, which the version number shows: it reads OVERHAUL.MAJOR.MINOR.PATCH, a slightly modified form of semantic versioning. This also means several updates can come out in a single day, or only once in a while, depending on whether I make many small changes or fewer big ones. Either way, expect frequent updates. Coffer tells you when one is ready, and checking for updates is the only time the app goes online: nothing from your vault is sent or received, it only checks this page for a new version (you can turn this off in **Settings → General**).
-
-## Helping this project
-
-If you use this app, don't hesitate to suggest features or improvements, or to report bugs and other issues, either with **Report a bug or issue** and **Send a suggestion** in Coffer or under **Issues** on this page. I want to make not only a great app, but one that people can rely on. I am not looking for any co-developers.
-
-## OS Support
-
-Coffer runs on Windows 11 (and 10) and on 64-bit Linux. I don't own a Linux machine, so the Linux version is tested on a virtual Ubuntu system and by testers; reports from Linux users are especially welcome. There are no plans for macOS.
-
-## Use of Artificial Intelligence
-
-This app is being co-developed with **Claude Opus 5.5**:
-
-While Claude does the heavy lifting, I personally design the whole app including its features and interfaces. Claude never decides on any major parts by itself, only minor changes like fixes and consistency it catches throughout the app. I alone decide what gets implemented, how it functions and how it looks. If I don't agree on what Claude has implemented (yes, I test every part for my use case), I make sure it gets done the way I believe it benefits the app the best. Claude can make suggestions and improvements to the technical side, but never actually decide on what the app does. Basically, it only does the coding, everything else is done entirely by a human (me).
-
-If you dislike this approach, that is completely fine. I just don't want to hear it. I, like many others, hate AI-slop, but AI-assisted work is, in my opinion, just as much human as it is machine (like comparing CGI from films, it's a tool and how you use it is what is important, not just if you use it).
+Coffer is developed with the help of **Claude Opus 5.5**, Anthropic's AI model. I design the app: what it does, how each feature works and how it looks, and I decide what goes into every release. Claude writes most of the code and suggests technical improvements and fixes. Every change is reviewed and tested by me before it is released.
