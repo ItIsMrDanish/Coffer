@@ -86,7 +86,7 @@ On Linux, Coffer asks you to choose a start key the first time it opens, and it 
 
 ## Updates
 
-Coffer checks this page for a new version when it starts. When there is one, the gear in Coffer gets a green dot, and **Settings → General** lets you download and install it (on Linux it opens the release page, where you download the new .deb or AppImage).
+Coffer checks this page for a new version when it starts. When there is one, the gear in Coffer gets a green dot, and **Settings → General** lets you download and install it (on Linux it opens the release page, where you download the new .deb or AppImage). Updating keeps your vault settings and files. Nothing is lost.
 
 ## Helping the project
 
