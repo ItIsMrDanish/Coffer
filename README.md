@@ -12,7 +12,7 @@ A normal folder on your PC is open to anyone who uses it, and a big collection q
 
 - **Private.** Files you add are encrypted (AES-256) and can only be opened through Coffer. Lock the whole app with a start key, or just some folders with their own keys.
 - **Easy to find.** A file isn't stuck in one place. Give it any number of folders, categories and tags, and find it again by any of them — or by search, filters, date, or what it looks like.
-- **Offline.** The only time Coffer goes online is to check this page for updates, and you can turn that off.
+- **Offline.** The only time Coffer goes online is to check this page for updates, and you can turn that off. See the [privacy policy](PRIVACY.md).
 
 ## What you could use it for
 
@@ -35,11 +35,13 @@ A normal folder on your PC is open to anyone who uses it, and a big collection q
 - Folders, categories and tags — as many per file as you like.
 - **Smart categories and tags** give themselves to the files that match your rules (for example: every image, except GIFs) and stay up to date.
 - **Tag suggestions** learned from the tags you've already given. Coffer only suggests; it never tags anything by itself.
+- **Watched folders**: new files that land in a folder you pick (your downloads, say) are added by themselves, with the folders, categories and tags you chose — and the originals deleted or kept.
 
 ![A smart category: rules that decide which files get it](screenshots/smart-tags.png)
 
 ### Finds things fast
 - Search by name, category or tag (`car OR city` works too), and filter by type, date, size, category or tag.
+- **Ctrl+K** opens the command menu: type a few letters to jump to any folder, category or tag, or to run an action.
 - Sort by name, date, size or type — or by **Similar**, which puts look-alike images and videos next to each other.
 
 ![Search with filters](screenshots/search.png)

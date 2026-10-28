@@ -1,6 +1,6 @@
 # Coffer privacy policy
 
-*Effective 20 October 2026. Coffer is made by Sleeping Shield Studio.*
+*Effective 28 October 2026. Coffer is made by Sleeping Shield Studio.*
 
 ## In short
 
@@ -11,17 +11,35 @@ your files, their names or anything about your vault to anyone — including us.
 
 - **Your vault**: the files you add, encrypted, together with their folders, categories, tags and descriptions.
 - **Your settings**: things like the theme, the design and the animations.
+- **Watched folders**, if you use them: which folders on your PC Coffer watches, and which files in them it has
+  already added. This is kept inside the vault, encrypted, like everything else in it.
 
 Both stay on your PC: in the Microsoft Store version in the `Coffer` folder in your user folder
 (`C:\Users\<you>\Coffer`), in the version from GitHub in `%LOCALAPPDATA%\Coffer`, and on Linux in
 `~/.local/share/Coffer`. If you make a backup, it goes to the
 folder you pick.
 
-Features that look at your files — finding duplicates, sorting by similarity, reading text in pictures, recognising
-characters, writing descriptions — all run on your PC. Nothing is uploaded for them.
+Features that look at your files — finding duplicates, sorting by similarity, reading text in images, recognising
+tags and categories, describing documents — all run on your PC. Nothing is uploaded for them. Three of them use
+machine learning ("AI"), with models that come with Coffer: **Sort by Similar** (a small image model), **reading
+watermarks** (Tesseract's text-recognition model) and **recognising tags and categories** (which learns from the tags
+you gave, on your PC). They only sort or suggest — they never change your files or tags by themselves — and your files
+are never sent anywhere or used to train anything outside your PC.
 
 When you open a file in another program, Coffer puts a temporary unencrypted copy in a private folder on your PC so
 that program can read it, and wipes it again when it's no longer needed (at the latest when Coffer closes).
+
+## Deleting your data
+
+- **Removing a file** moves it to *Recently removed*, still encrypted, for as long as you chose in Settings → Backup.
+  After that, or when you use *Delete for good*, its encrypted copy, its thumbnail and the details Coffer read from it
+  are deleted, and its key is removed, so it can't be read again.
+- **Backups** drop removed files the next time they run. *Settings → Backup → Remove…* can also delete a backup
+  completely.
+- **Originals**: when you let Coffer delete the original files you added, it first checks its own copy, then
+  overwrites each original before deleting it. (On SSDs, old copies of overwritten data can remain on the drive.)
+- **Uninstalling Coffer keeps your vault**, so your files aren't lost by accident. To remove everything, delete the
+  folders named above (and any backups you made).
 
 ## When Coffer goes online
 
