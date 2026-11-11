@@ -97,3 +97,7 @@ Found a bug, or have an idea? Click **Report a bug or issue** or **Send a sugges
 ## Use of AI
 
 Coffer is developed with the help of **Claude Opus 5.5**, Anthropic's AI model. I design the app: what it does, how each feature works and how it looks, and I decide what goes into every release. Claude writes most of the code and suggests technical improvements and fixes. Every change is reviewed and tested by me before it is released.
+
+## License
+
+Coffer is free to use under its [license agreement](LICENSE.md), which the Windows installer asks you to accept. It also comes with Coffer as `LICENSE.txt`, together with `THIRD-PARTY-NOTICES.txt` for the open-source parts Coffer uses.
